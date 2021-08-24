@@ -1,0 +1,38 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+.div1
+{
+    background-color:fuchsia ;
+    width: 100%;
+    height:100px;
+}
+.head
+{
+    color:ghostwhite;
+}
+#input1
+{
+    width:30%;
+    animation-name: animation1;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+}
+@keyframes animation1
+{
+    from{box-shadow: 10px 10px 20px cyan;}
+    to{box-shadow: 10px 10px 20px pink;}
+}
+canvas
+{
+    animation-name: animation2;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+}
+@keyframes animation2
+{
+    from{box-shadow: 10px 10px 20px orange;}
+    to{box-shadow: 10px 10px 20px pink;}
+}
